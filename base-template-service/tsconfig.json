@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "esnext",
+    "target": "ES2024",
     "module": "commonjs",
     "strict": true,
     "esModuleInterop": true,
@@ -13,8 +13,7 @@
     "typeRoots": ["./src/types", "./node_modules/@types"],
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
-    "strictPropertyInitialization": false,
-    "sourceMap": true
+    "strictPropertyInitialization": false
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "dist"]

@@ -54,6 +54,7 @@ class ServiceProxy {
   }
   private static handleProxyRequest(proxyReq: any, req: any): void {}
   private static handleProxyResponse(proxyRes: any, req: any, res: any): void {}
+  
   public static setupProxy(app: Application): void {
     ServiceProxy.serviceConfigs.forEach((service) => {
       const proxyOptions = ServiceProxy.createProxyOptions(service);
